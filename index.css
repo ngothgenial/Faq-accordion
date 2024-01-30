@@ -1,0 +1,109 @@
+.bg-one {
+    background-image: url(images/background-pattern-desktop.svg);
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.box {
+    width: 420px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 1px 15px;
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.text-logo {
+    color: hsl(292, 42%, 14%);
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.fist-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.question-one {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 30px 0px;
+    justify-content: flex-start;
+
+}
+
+
+
+.q-one {
+    font-weight: bold;
+    font-size: smaller;
+    margin: auto;
+}
+
+.logo {
+    margin-left: 15px;
+    margin: auto;
+     cursor: pointer;
+
+
+}
+
+.h6 {
+    font-size: small;
+    color: hsl(292, 16%, 49%);
+    font-weight: initial;
+}
+
+.description {
+    border-bottom: 2px hsl(275, 100%, 97%) solid;
+
+}
+
+.question-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 15px 0px;
+    border-bottom: 2px hsl(275, 100%, 97%) solid;
+
+
+
+
+}
+
+.q-two {
+
+    font-weight: bold;
+    font-size: smaller;
+    /* margin: auto; */
+    cursor: pointer;
+
+
+
+}
+
+.q-two:hover {
+    color: hsl(293, 100%, 31%);
+
+}
+.logo-plus{
+     cursor: pointer;
+     margin-top: -15px;
+
+}
+
